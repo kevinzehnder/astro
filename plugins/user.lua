@@ -9,4 +9,23 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  -- colorschemes
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  { "ishan9299/nvim-solarized-lua" },
+  { "morhetz/gruvbox" },
+  { "sainnhe/gruvbox-material" },
+
+  {
+    "kylechui/nvim-surround",
+    lazy = false,
+    opts = {},
+  },
+
+  { "ThePrimeagen/harpoon" },
 }

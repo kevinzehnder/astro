@@ -7,6 +7,20 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+
+    cmdheight = 1,
+
+    list = true, -- show whitespace characters
+    listchars = {
+      tab = "→ ",
+      extends = "⟩",
+      precedes = "⟨",
+      trail = "·",
+      nbsp = "␣",
+      space = "·",
+      -- eol = "↲",
+    },
+    undofile = true,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
